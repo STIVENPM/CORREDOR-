@@ -18,6 +18,5 @@ public class Customer {
     @Column(name = "first_name", length = 100)
     private String name;
 
-    @Column(name = "age")
-    private int age;
+    public Customer() {}
 }

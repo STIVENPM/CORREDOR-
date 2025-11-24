@@ -20,4 +20,5 @@ public class Breanch {
     @Column(name = "city", length = 100)
     private String city;
 
+    public Breanch() {}
 }
